@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.bak"
+			],
+			"folder_exclude_patterns":
+			[
+				"backup"
+			],
+			"follow_symlinks": true,
+			"name": "Root",
+			"path": "/Users/kevinleary/Sites/rapidminer-docs"
+		}
+	]
+}

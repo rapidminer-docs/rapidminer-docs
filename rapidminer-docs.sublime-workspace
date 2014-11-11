@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"ob_get_",
+				"ob_get_contents"
+			],
+			[
 				"padding",
 				"padding-bottom"
 			],
@@ -32,10 +48,6 @@
 				"json_decode"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"deferr",
 				"Deferreds"
 			],
@@ -46,10 +58,6 @@
 			[
 				"bacl",
 				"background-color"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"delete_user",
@@ -154,10 +162,6 @@
 			[
 				"back",
 				"background-image"
-			],
-			[
-				"text-",
-				"text-align"
 			],
 			[
 				"max",
@@ -384,152 +388,68 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/default.html",
+			"file": "/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-config.php",
 			"settings":
 			{
-				"buffer_size": 900,
+				"buffer_size": 5799,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes",
+			"contents": "# RapidMiner Documentation Site\n\nA simple documentation system to provide RapidMiner documentation at [docs.rapidminer.com](http://docs.rapidminer.com). This setup is built using [Jekyll](http://jekyllrb.com/), a plain text CMS for static websites. \n\n## Inspiration\n\n* [KISSmetrics](http://support.kissmetrics.com/) -- Awesome layout and structure, this is built with Jekyll and is hosted at Github, allowing anyone to fork and contribute to the documentation.\n* [memsql](http://developers.memsql.com/docs/latest/#) -- Nice design\n\n## Notes\n\n",
+			"file": "README.md",
+			"file_size": 65,
+			"file_write_time": 130591671590000000,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 542,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/footer.html",
+			"file": "/Users/kevinleary/Sites/rapid-vvv/docs/rapidminer-web.md",
 			"settings":
 			{
-				"buffer_size": 756,
+				"buffer_size": 11045,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/header.html",
+			"contents": "# RapidMiner.com\n\n## Making changes to RapidMiner.com\n\nThe codebase for RapidMiner.com and it's development environment is version controlled by `git`, with remote repositories hosted in [RapidMiner's Stash account](https://gitlab.rapid-i.com/stash/projects/WEB). The development systems for Rapidminer.com can be broken down into 3 environments:\n\n1. **Development** -- Local machine instance powered by VirtualBox + Vagrant, once configured it exists at `https://rapidminer.staging`\n1. **Staging** -- WPEngine provides a staging environment at `https://rapidminer.staging.wpengine.com` (to deploy: `git push staging dev` or `git push staging master`)\n1. **Production** -- Live website where production code is released (to deploy: `git push production master`)\n\nDeployment to each environment is handled with [WPEngine's git deployment](http://wpengine.com/git/).\n\n### Setup the `Development` environment\n\nThe **Rapidminer.com Development Environment** git repository in Stash provides a local development environment using Vagrant and Oracle's VirtualBox. \n\n\n\n**For detail instructions and information on how to setup up environments to deploy code to Rapidminer.com refer to the [README.md doc in Stash](https://gitlab.rapid-i.com/stash/projects/WEB/repos/rapidminer.com-development-environment/browse).**\n\n### Setup git deployment\n\nThe **Rapidminer.com** git repo manages the code base for WordPress Network CMS powering Rapidminer.com. All plugin/theme changes should be performed locally first and pushed to staging for proper testing. We currently have [WPEngine git deployment](http://wpengine.com/git/) setup to handle deployment using git remotes:\n\nTo configure WPEngine git deployment:\n\n1. Configure [WPEngine git deployment](http://wpengine.com/git/) remotes for \"staging\" (rapidminer.staging.wpengine.com) and \"production\" (rapidminer.com)\n1. Push to production with 'git push production master'\n1. Push to staging with 'git push staging master'\n1. Configure a private/public SSH key pair through the my.wpengine.com interface\n\n## Third-party dependencies\n\n### KISSmetrics\nEvent tracking system used for website analytics, if you want to build an inbound growth for license sales you should use this tool. The tracking script runs on the every page, and events are tracked in the system, and custom API events are tracked through Rapidminer.com. For a list of the custom API events refer to this page in KISS: https://app.kissmetrics.com/wizard#api\n\n**Login credentials**\n* https://www.kissmetrics.com/signin\n* webmaster@rapidminer.com\n* rAp1dm3ineR02482\n\n### Pardot\nMarketing automation for email marketing and prospect profiling. This connects to the website in the following ways:\n\n1. Contact Us Form (as a form handler) - Creates a prospect or tracks the action for an existing prospect when someone contacts us\n2. Contact Sales Form (as a form handler) - Creates a prospect or tracks the action for an existing prospect when someone contacts sales\n3. Registration Form (as a form handler) - Creates a prospect when someone signs up\n4. Gated Resources (forms) - Resources published through WordPress can be gated using a Pardot form. Once the form is completed the user is provided access to the resource.\n5. Login (?pi_email URL parameter creates prospect from visitor cookie)\n\n**Login credentials**\n* https://pi.pardot.com/user/login\n* kleary@rapidminer.com\n* RapidMiner22$\n\nThe forms managed by Gravity Forms on RapidMiner.com (currently *Contact Us*, *Contact Sales*, *Register*, and *Contact Partnes*) use a form handler setup to pass field values into Pardot when a form is submitted using GET URL parameters. The process used for this is well documented in the following Blog article: http://www.kevinleary.net/integrating-pardot-wordpress/\n\nJono is the best person to speak to about for further details of how Pardot then feeds into SalesForce for the sales team.\n\n### Stripe\n\nStripe is used for handling eCommerce transactions on the website and in the cloud OL. Rapidminer.com generates Stripe tokens and hands off those tokens to a Cloud HTTP API backend, which handles the processing of payment on the server-side in a JBOSS + Java Spring environment developed by the Dortmand engineering team.\n\n**Login credentials**\n* https://dashboard.stripe.com/dashboard\n* webmaster@rapidminer.com\n* 9W4iLDKWecWhudcsTfWK\n\n### Mandrill\n\nMandrill is a transactional email service run by MailChimp that provides a very reliable email delivery service. **Currently Rapidminer.com is not leveraging Mandrill in anyway, as AWS SES is used instead for direct DKIM deliverability. HOWEVER: Auth0 currently sends emails on our behalf through this Mandrill account for reset password and other system notifications to our users.**\n\n**Login credentials**\n* https://dashboard.stripe.com/dashboard\n* webmaster@rapidminer.com\n* 9W4iLDKWecWhudcsTfWK\n\n### AWS SES\n\nAmazon Simple Email Service is used to send transaction SMTP emails from rapidminer, that are signed by DKIM certificates. This is crucial for getting through to corporate emails, like @intel.com. This is provided by the *Amazon SES DKIM Mailer* plugin.\n\n### Hello Bar!\n\nHello Bar is the service reponsible for the irritating, annoying banners that frequent the top of the website.\n\n**Login credentials**\n* https://www.hellobar.com/sites/rapidminer.com\n* kleary@rapidminer.com\n* RapidM13neR\n\n### Wormly\n\nUptime monitoring service, sends out SMS and email notifications to users when the website or other devops related services have downtime or connectivity issues.\n\n**Login credentials**\n* https://www.wormly.com/login/returnto/%253Bmyaccount\n* webmaster@rapidminer.com\n* rAp1dm3ineR02482\n\n## WordPress CMS\n\n### Overview\n\nRapidminer.com is powered by WordPress 3.8 and is fully compatable with new releases of WordPress, which should always be installed when available. Rapidminer.com is different in that it is powered by a *multisite/network subdomain* installation of WordPress: http://codex.wordpress.org/Create_A_Network. The site is hosted at WPEngine, which is currently the best host available for WordPress.\n\n**WPEngine login credentials**\n* https://my.wpengine.com\n* webmaster@rapidminer.com\n* Rapidminer22$\n\n**WordPress login credentials (superadmin)**\n* https://rapidminer.com\n* webmaster@rapidminer.com\n* Rapidminer22$\n\n### RapidMiner Functionality\n\nI've consolidated the site-wide and application level functionality into a single WordPress plugin called **RapidMiner Functionality** that lives under:\n\n`/wp-content/plugins/rapid-functionality/`\n\nThis plugin uses an object oriented structure that is bootstrap in the `rapid-functionality.php` file. It uses Grunt for compiling LESS/CSS/JS into concatenated and minified scripts. *Bower* is used for JavaScript package management. *Composer* is used for PHP package management.\n\nThis plugin handles RESTful HTTP connections to:\n\n* Cloud OL: Cloud subscriptions, credits, billing information and more. This is documented in *Confluence*\n* Licensing: API for generating licenses for use with of RapidMiner Studio and Server\n* Auth0: Updating email and passwords for users\n* Stripe API: Partially implemented system for purchasing licenses\n\nIt leverages the following technologies Twig & Handlebars templating engines under `templates/` directory.\n\n### Advanced Custom Fields\n\nThis plugins provides custom metabox capabilities for the *Resources* custom post type.\n\n### Query Monitor\n\nThis tool is used in development only to analyze the database queries and general server-side performance of the website.\n\n### Restricted Site Access\n\nRestricts access to the website in the staging environment to ensure general audience visitors do not gain access to upcoming features and code in test.\n\n### Jupiter Theme\n\nGiuseppe chose the Jupiter theme for the design framework used to power Rapidminer.com. It's very flexible, but rigid in terms of content portability and very slow on the performance end. You can do a lot with it, but there is a lot of code used to provide content management for almost every aspect of the site. This makes it difficult to track down and fix bugs that come up, and provides for a generally unstable platform. The release we're using is customized and has been deliberately kept out of date to avoid being overwritten during an update.\n\n**Child theme**\n\nThe *RapidMiner* theme is a child theme using Jupiter as a parent. With this approach we can isolate our customization from the core theme in theory, but Jupiter hasn't been developed as a proper parent theme so it's about a 90/10 split, with 10% of the customizations being done directly to the Jupiter theme. (unfortunately)\n\n**Login credentials**\n* https://account.envato.com/sign_in?to=themeforest\n* rapidminer\n* $FFwk>4K8mfP\n\n### Safe Redirect Manager\n\nThis plugin manages redirects for page URLs, including regex pattern matching, that have changed and need to be properly redirected to another location.\n\n### Gravity Forms + User Registration\n\nGravity forms is a premium plugin for WordPress that is used to power the Register, Contact Us, and Contact Sales forms on the website. It handled notifications, routing, and anything else related to the management of submission forms on Rapidminer.com. Gravity Forms has been extended with the User Registration addon to provide the capabilities currently used for account registration and management. \n\n### Auth0\n\nAuth0 is a single sign-on authentication system that was provided to me as a requirement. It has been the root cause of numerous issues, and I would label it as a partially stable system that we rely on heavily. WordPress's built-in login and user management system was partially replaced by Auth0's WordPress plugin. Unfourtauntely the plugin provided by Auth0 was and is very much in a beta state for compatability and stability. I've rewritten much of Auth0's plugin, and we now have a branched version of the plugin that resides in a branched plugin that lives under `/wp-content/plugins/rapid-auth0/`. This was done to:\n\n* Provide compatability with internal login system URLs: `/wp-login.php?action=lostpassword`\n* Avoid issues with brute force attacks against hidden <form> field (we remove the <form> opposed to just hiding it with CSS)\n* Customize the look and feel to suite the needs of designs provided\n\n*Access to this system must be provided by the engineering team in Dortmund. See Simon or Sebastian to be setup with an account.*\n\n### WP Sync DB\n\nWP Sync DB is a plugin for WordPress that we use to transfer our MySQL database from one WordPress install to another through the dashboard:\n\nhttps://rapidminer.com/wp-admin/network/settings.php?page=wp-migrate-db-pro&wpmdb-profile=1\n\nThis makes it easy to run find and replace URL's in the database when moving between environments. That said, **proceed with caution**, with great power comes great reponsibility.\n\n### Royal Custom CSS for Page and Post\n\nThis plugin provides a short term way to customize the CSS for a single page. It's a workaround to make working with the Jupiter theme more customizable on a page by page basis.\n\n## Development Process\n\n### Version Control\n\nVersion control for Rapidminer.com is provided by Git and is hosted through Stash, a product under the Atlassian suite managed by the engineering team in Germany:\n\nhttps://gitlab.rapid-i.com/stash/projects/WEB/repos/rapidminer.com/browse\n\n*Access to this system must be provided by the engineering team in Dortmund. See Simon or Sebastian to be setup with an account.*\n\n### Development\n\nLocalhost server for development is provided by Vagrant, and more specifically the open source project [VVV (Varying Vagrant Vagrants)](https://github.com/Varying-Vagrant-Vagrants/VVV). This project has been bundled in a separate Git repository:\n\nhttps://gitlab.rapid-i.com/stash/projects/WEB/repos/rapidminer.com-development-environment/browse\n\nInstructions for setting this up are provided in the projects `README.doc`. At this time two primary branches are maintain: `dev` is used for rough development of new features that are often pushed to `staging`. Production-ready change are merged with `master` and pushed to production.\n\n### Staging\n\nThe staging environment is provided by WPEngine's One click staging feature:\n\nhttp://wpengine.com/support/staging/\n\n### Production\n\nThe production environment is hosted at WPEngine and is SSL enabled with a rapidminer.com SSL certificate provided in the `/_wpeprivate` root directory.\n\n### Deployment\n\nDeployment to and from server environments is handled by WPEngine's Git deployment feature. To configure your environment for this follow the instructions provided by WPEngine:\n\nhttp://wpengine.com/git/\n\nUnder this structure, staged changes are pushed to the staging environment when working from the `dev` branch using the following command:\n\n`git push staging dev`\n\nTo deploy changes to the production you can follow a similar pattern:\n\n`git checkout master\ngit merge dev\ngit push production master`\n\nDatabase changes are synced using the **WP Sync DB** premium plugin for WordPress. More details on this plugin  are provided above.",
 			"settings":
 			{
-				"buffer_size": 798,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "quick-start/index.md",
-			"settings":
-			{
-				"buffer_size": 266,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "quick-start/install.md",
-			"settings":
-			{
-				"buffer_size": 262,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "1 Fundamental Terms\n1.1 Coincidence or not?\n1.2 Fundamental Terms\n2 Quick Start\n    - name: \"Installation & First Repository\"\n      url: \"/quick-start/install\"\n2.2 Perspectives and Views\n    - name: \"Installation & First Repository\"\n      url: \"/quick-start/install\"\n2.3 Design Perspective\n3 Design of Analysis Processes\n3.1 Creating a New Process",
-			"settings":
-			{
-				"buffer_size": 347,
+				"buffer_size": 13086,
 				"line_ending": "Unix",
-				"name": "1 Fundamental Terms"
+				"name": "# RapidMiner.com"
 			}
 		},
 		{
-			"file": "index.html",
+			"contents": "# RapidMiner.com Development Workflow\n\nThis repository contains a fully featured local development environment for replicating the Rapidminer.com WordPress stack in a local development environment. The repo is based on the popular open-source project, [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV).\n\n## Requirements\n\n### Assumptions & Pre-requisites\n\n1. Install Git: [Mac](https://code.google.com/p/git-osx-installer/) | [Windows](https://help.github.com/articles/set-up-git#platform-windows) | [Linux](https://help.github.com/articles/set-up-git#platform-linux)\n2. Have a [Stash](https://gitlab.rapid-i.com/stash/) account to gain access to the repo\n\n### Installation\n\n1. Install [VirtualBox 4.3.x](https://www.virtualbox.org/wiki/Downloads)\n1. Install [Vagrant 1.6.x](http://www.vagrantup.com/downloads.html)\n1. Install the [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) plugin with `vagrant plugin install vagrant-hostsupdater` -- *Note: This step is not a requirement, though it does make the process of starting up a virtual machine nicer by automating the entries needed in your local machine's `hosts` file to access the provisioned VVV domains in your browser. If you choose not to install this plugin, a manual entry should be added to your local `hosts` file for the hosts (see `www/hosts.txt`)*\n1. Install the [vagrant-triggers](https://github.com/emyl/vagrant-triggers) plugin with `vagrant plugin install vagrant-triggers` -- *Note: This step is not a requirement. It does allow for various scripts to fire when issuing commands such as `vagrant halt` and `vagrant destroy`. By default, if vagrant-triggers is installed, a `db_backup` script will run on halt, suspend, and destroy that backs up each database to a `dbname.sql` file in the `{vvv}/database/backups/` directory. These will then be imported automatically if starting from scratch. Custom scripts can be added to override this default behavior.*\n1. Clone the repo: `git clone https://kleary@gitlab.rapid-i.com/stash/scm/web/rapidminer.com-development-environment.git ~/Sites/rapid-vvv`\n1. Download and extract the following uploads archive and move the `uploads` folder to `www/rapid-staging/wp-content/`\n1. Provision the virtual machine: `vagrant up --provision`. It will take a while for this to start up the first time (5-10 minutes), but subsequent provisions will be must faster.\n1. Login to the site: [https://rapidminer.staging/wp-admin/](https://rapidminer.staging/wp-admin/) using `webmaster@rapidminer.com` (email) and `Rapidminer22$` (password)\n\n**All done!!**\n\n### Notes\n\nDepending on how out of date the local environment is you may want to re-sync it with the live website. To do this involves two primary steps that are outside of the realm of version control:\n\n1. Export the production MySQL database, run a find a replace routine to make URL's work locally, and import it into the Vagrant development environment\n1. SFTP into rapidminer.com and sync the contents of `/wp-content/uploads` with the local environment\n\nTo automate these steps I've configured a tool called [WP Sync DB tool](https://rapidminer.staging/wp-admin/network/settings.php?page=wp-sync-db) that will handle both. Inside the tool select the `Pull from Production` profile to copy the live database, run rewrite routines for localizing URL's, and importing uploads and media. **This will take a long time, to speed things up I'd suggest creating a new profile that skips the following DB tables: `wp_rapidminer_licenses`, `wp_users`, `wp_userdata`, `wp_auth0_user`.**\n\nThis local development environment is based on an open-source project called **Varying Vagrant Vagrants**, visit the [VVV documentation](https://github.com/10up/varying-vagrant-vagrants) for moreinformation about connecting directly to PHPMyAdmin and MySQL in VVV.wr\n\n## Deploying changes\n\nWe currently have [WPEngine git deployment](http://wpengine.com/git/) setup to handle deployment using git remotes:\n\nTo configure WPEngine git deployment:\n\n1. Add your SSH public key to WPEngine inside of my.wpengine.com: https://my.wpengine.com/installs/rapidminer/git_push. If you don't have an [SSH key setup follow this guide](https://help.github.com/articles/generating-ssh-keys/).\n1. Add WPEngine remotes for *staging* (`rapidminer.staging.wpengine.com`) and *production*: `git remote add production git@git.wpengine.com:production/rapidminer.git; git remote add staging git@git.wpengine.com:staging/rapidminer.git`\n1. Push to production with `git push production master`\n1. Push to staging with `git push staging dev` or `git push staging master`",
 			"settings":
 			{
-				"buffer_size": 63,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_plugins/markdown.rb",
-			"settings":
-			{
-				"buffer_size": 650,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_plugins/install.rb",
-			"settings":
-			{
-				"buffer_size": 650,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 60,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_data/menu.yml",
-			"settings":
-			{
-				"buffer_size": 415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "process-design/index.md",
-			"settings":
-			{
-				"buffer_size": 365,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "process-design/creating-new-process.md",
-			"settings":
-			{
-				"buffer_size": 280,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/navigation.html",
-			"settings":
-			{
-				"buffer_size": 1128,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/docs.css",
-			"settings":
-			{
-				"buffer_size": 4451,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/intro.md",
-			"settings":
-			{
-				"buffer_size": 189,
-				"line_ending": "Unix"
+				"buffer_size": 4610,
+				"line_ending": "Unix",
+				"name": "# RapidMiner.com Development Workflow"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 241.0,
 		"selected_items":
 		[
 			[
+				"markd",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"mark",
+				"Markdown Preview: Save to HTML"
+			],
+			[
 				"markdown",
-				"Markdown Preview: Preview in Browser"
+				"Markdown Preview: Save to HTML"
 			],
 			[
 				"package",
@@ -562,14 +482,6 @@
 			[
 				"Snippet: ",
 				"SnippetMaker: Edit Snippet"
-			],
-			[
-				"mark",
-				"Markdown Preview: Export HTML in Sublime Text"
-			],
-			[
-				"markd",
-				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"php",
@@ -653,33 +565,54 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/kevinleary/Sites/rapidminer-docs/_includes",
-		"/Users/kevinleary/Sites/rapidminer-docs/assets/css"
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality"
 	],
 	"file_history":
 	[
-		"/Users/kevinleary/Sites/rapidminer-docs/_site/CNAME",
-		"/Users/kevinleary/Sites/rapidminer-docs/CNAME",
-		"/Users/kevinleary/Sites/rapidminer-docs/_includes/navigation.html",
-		"/Users/kevinleary/Sites/rapidminer-docs/section-name/components.html",
-		"/Users/kevinleary/Sites/rapidminer-docs/introduction/page-name.html",
-		"/Users/kevinleary/Sites/rapidminer-docs/introduction/.DS_Store",
-		"/Users/kevinleary/Sites/rapidminer-docs/_sass/_base.scss",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/footer.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/js/theme-scripts.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/header.php",
+		"/Users/kevinleary/Sites/rapid-vvv/.gitmodules",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-config.php",
+		"/Users/kevinleary/Sites/rapid-vvv/.git/config",
+		"/Users/kevinleary/Sites/rapid-vvv/.gitignore",
+		"/Users/kevinleary/Sites/rapid-vvv/README.md",
+		"/Users/kevinleary/Sites/rapid-vvv/docs/vagrant-setup.md",
+		"/Users/kevinleary/Sites/rapid-vvv/docs/rapidminer-web.md",
+		"/Users/kevinleary/Sites/rapid-vvv/config/nginx-config/sites/rapidminer.staging.conf",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/debug.log",
+		"/Users/kevinleary/Desktop/Documentation/website-docs.md",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/utils.php",
+		"/Users/kevinleary/Sites/rapid-vvv/config/bash_profile",
+		"/Users/kevinleary/Sites/rapid-vvv/config/bash_aliases",
+		"/Users/kevinleary/Sites/rapid-vvv/provision/provision.sh",
+		"/Users/kevinleary/Sites/rapid-vvv/www/vvv-hosts",
+		"/Users/kevinleary/Sites/rapid-vvv/config/nginx-config/sites/angular-demos.conf",
+		"/Users/kevinleary/Sites/rapid-vvv/config/nginx-config/sites/angular.conf",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/theme.less",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_cloud-activate.twig",
-		"/Users/kevinleary/Sites/rapidminer-docs/_config.yml",
-		"/Users/kevinleary/Sites/rapidminer-docs/_includes/head.html",
-		"/Users/kevinleary/Sites/rapidminer-docs/_includes/header.html",
-		"/Users/kevinleary/Sites/rapidminer-docs/css/main.less",
-		"/Users/kevinleary/Sites/rapidminer-docs/gruntfile.js",
-		"/Users/kevinleary/Sites/rapidminer-docs/package.json",
+		"/Users/kevinleary/Sites/rapid-vvv/config/nginx-config/sites/rapidminer.design.conf",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/lib/jupiter-pluggable.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/library.less",
+		"/Users/kevinleary/Desktop/trello.html",
+		"/Users/kevinleary/Desktop/# Trello Guidelines",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/account.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/pardot-forms-standard.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/js/theme.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_order.handlebars",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/licensing.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/licensing.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/licenses.handlebars",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/Gruntfile.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/footer.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/licenses.js",
+		"/Users/kevinleary/Desktop/website-docs.md",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account.min.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_cloud-activate.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/templating.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/cloud.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/cloud.twig",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/activate.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/account.php",
-		"/Users/kevinleary/Sites/rapidminer-docs/rapidminer-docs.sublime-project",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/js/lib/pdfjs/web/locale/es-ES/viewer.properties",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins-dormant/polylang/admin/table-string.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins-dormant/polylang/admin/table-languages.php",
@@ -691,10 +624,7 @@
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/cloud-beta.less",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/email.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/download.php",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/header.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/framework/actions/slideshow.php",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/lib/jupiter-pluggable.php",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/debug.log",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/stylesheet/less/header-toolbar.less",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/amazon-ses-and-dkim-mailer/configure-smtp.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/profile.php",
@@ -702,10 +632,7 @@
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/amazon-ses-and-dkim-mailer/php-mailer/class.phpmailer.php",
 		"/Users/kevinleary/Desktop/email.html",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/template-dashboard.php",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/licensing.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-auth0/WP_Auth0.php",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/licenses.handlebars",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/licenses.js",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/lib/handlebars.jquery.js",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/mu-plugins/fpdf.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/gravityformsuserregistration/userregistration.php",
@@ -716,8 +643,6 @@
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/activate.less",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/gravityformsuserregistration/includes/activate.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/dist/css/activate.min.css",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/Gruntfile.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/templating.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/mu-plugins/developers-plugin.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/wpmandrill/lib/mandrill.class.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/wpmandrill/wpmandrill.php",
@@ -726,13 +651,11 @@
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/tracking.js",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/.git/config",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/readme.html",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/utils.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/screens.less",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/landing.less",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/enqueue.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/utilities.js",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/framework/functions/enqueue-front-scripts.php",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account.js",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/profile.js",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/templates/activate-error.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/tests/user-tasks.js",
@@ -764,9 +687,7 @@
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/settings/controls.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_modal-agreement.twig",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/downloads.handlebars",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_order.handlebars",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/hello-bar.php",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/licensing.php",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_header.handlebars",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_cloud-manager.twig",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/.gitignore",
@@ -775,17 +696,7 @@
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/lib/jquery.crs.js",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/licensing.php.orig",
 		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/cloud.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/cloud-beta.php",
-		"/Users/kevinleary/Desktop/tos.html",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/dist/js/account.source.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/lib/jQuery.ajaxQueue.min.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/js/jquerytransit.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/test.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/forgot-password.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/downloads.js",
-		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/registration.js",
-		"/Users/kevinleary/Desktop/cleanup.sql",
-		"/Users/kevinleary/Sites/rapid-vvv/config/nginx-config/sites/rapidminer.staging.conf"
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/cloud-beta.php"
 	],
 	"find":
 	{
@@ -796,6 +707,29 @@
 		"height": 115.0,
 		"where_history":
 		[
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/p",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugin,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/,*.php",
 			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.php",
 			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/",
 			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
@@ -900,74 +834,127 @@
 			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.js",
 			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
 			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-auth0/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.js",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality/,*.js",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.js",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-auth0,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.handlebars",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.js",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-auth0",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-auth0,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
-			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
 			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
-			"dropdown",
-			"nav-header",
-			"caret",
-			"      subhref: \"/",
-			"data-toggle=\"dropdown\"",
-			".href",
-			"href",
-			".url",
-			"url",
-			"/quick-start/",
-			"navbar_link",
-			"navbar_links",
-			". . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
-			". . . . . . . . . . . . . . . . . . . . . . . . . . . ",
-			". . . . . . . . . . . . . . . . . . . . . . . . . . ",
-			"   * ",
-			"pull-right",
-			"nav > li > a",
-			"#ccc",
-			".orange",
-			".orange-button",
-			".navbar .nav.pull-right a.orange-button",
-			".orange-button",
-			"Jetstrap",
-			"orange-button",
-			".nav",
-			".navbar .nav > li > a.nav",
-			".brand",
-			"none !important",
-			".navbar-inner",
-			".css",
-			"JETSTRAP",
-			"jetstrap",
-			"JETSTRAP",
-			"jetstrap.com",
-			"dist/",
-			"config",
+			"'",
+			"\"",
+			"**",
+			"$load_button",
+			"mk-loadmore-button",
+			"page/",
+			"mk-loadmore-button",
+			"page",
+			"$load_button",
+			"mk-loadmore-button",
+			"paginate",
+			"WP_ENV",
+			"define('",
+			";\n",
+			"\n",
+			"');",
+			"define('",
+			"\n",
+			");\n",
+			"\n",
+			"staging",
+			"WP Migrate DB Pro",
+			"migrate db",
+			"Docs: ",
+			"# ",
+			"webmaster@rapidminer.com",
+			"wordpress",
+			".md",
+			"wordpressf",
+			"wordpress",
+			"redirect",
+			".transition",
+			"primary-action",
+			"mk-header-right",
+			"mk-header",
+			"primary-action",
+			"mk-header-right",
+			"primary-action",
+			"trello.html",
+			": ",
+			"-- ",
+			"mk-footer-logo",
+			"8px 10px",
+			"mk-login-link",
+			"5px 10px",
+			"5px10px",
+			".mk-header-login",
+			"rapid-custom-logout",
+			"header-toolbar-item",
+			"mk-login-link",
+			"login",
+			"mk-header-toolbar",
+			"mk-header",
+			"mk-login-link",
+			".mk-login-link",
+			"rapid_headerbar",
+			"header_toolbar_login",
+			"header_login_toolbar",
+			"login",
+			"gradient",
+			"graidnet",
+			"mk-header-login",
+			".mk-header-toolbar",
+			"mk-header-right",
+			"rapid_primary_action",
+			"header",
+			"tour",
+			".primary-action",
+			"mk-header-start-tour",
+			"feature",
+			"mk-header-start-tour",
+			".9",
+			"opacity",
+			"client-logo",
+			"days_until",
+			"expires",
+			"trial",
+			"country",
+			"ountry",
+			"country",
+			" \n",
+			"&",
+			" \n",
+			"&",
+			" \n",
+			"message",
+			"&",
+			"E3E3E3",
+			"FAFAFA",
+			".value",
+			"@label-width",
+			"40%",
+			"field-label",
+			"submit",
+			"font-weight: bold",
+			"bold",
+			"http://fonts.googleapis.com/css?family=",
+			"googleapis.com",
+			"http://",
+			"https",
+			"wpengine",
+			">>",
+			"stripe",
+			"<<",
+			"jupiter",
+			"stripe",
+			"kiss",
+			"Functionality",
+			"  ",
+			"cache",
+			"/cache",
+			"by using",
+			"predaction",
 			"activate",
 			"lead_in",
 			"{{ lead_in",
@@ -982,83 +969,7 @@
 			"region-primary",
 			"region-aside",
 			"cloud-graphic",
-			"region-primary",
-			"green",
-			"region-inner",
-			"cloud-overview",
-			"social",
-			"mk-footer",
-			"#menu-footer-navigation",
-			"mk-footer-logo",
-			"theme_slideshow",
-			"mk-header-toolbar",
-			".header-toolbar-item",
-			"login-link",
-			"login",
-			".mk-header-toolbar",
-			".mk-login-link",
-			".header-toolbar-item",
-			"mk-header-login",
-			"mk-login-link",
-			"login-link",
-			"mk-login-link",
-			".mk-header-login",
-			"mail",
-			"subscribe",
-			"tb-contact ",
-			"header-toolbar-item",
-			"support",
-			"login",
-			"contact",
-			"mk-header-subscribe-button",
-			"template_redirect",
-			"wp_redirect",
-			"anatta_swap_php_mailer",
-			"wp_mail",
-			"presend_email",
-			"decode",
-			") ",
-			"Rapidminer_Templating::render_twig",
-			"Rapidminer_Templating",
-			"Notification",
-			"build_template",
-			"mandrill",
-			"anatta_swap_php_mailer",
-			"CreateBody",
-			"MIMEBody",
-			"AmazonSESSend",
-			"AWS",
-			"phpmailer",
-			"anatta_swap_php_mailer",
-			"wp_mail",
-			"pagenow",
-			"cache",
-			"resolveTemplatePath",
-			",",
-			"',",
-			"','",
-			"resolveTemplatePath",
-			"renderTo",
-			"renderAfter",
-			"console.log",
-			"url",
-			"%s",
-			"\"",
-			"Click the following link to activate ",
-			"?page=gf_activation",
-			"https://rapidminer.staging/?page=gf_activation",
-			"render_form",
-			"compile_template",
-			"templates",
-			"activation",
-			"data",
-			"renderAfter",
-			"create:",
-			"self.prices",
-			"toggler",
-			"closed",
-			"license-order",
-			"toggler"
+			"region-primary"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1082,46 +993,45 @@
 	"groups":
 	[
 		{
-			"selected": 15,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/default.html",
+					"file": "/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-config.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 900,
+						"buffer_size": 5799,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								740,
-								740
+								333,
+								333
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 3,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 807.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_includes",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 542,
 						"regions":
 						{
 						},
@@ -1129,28 +1039,28 @@
 						[
 							[
 								0,
-								0
+								542
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "_includes/footer.html",
+					"file": "/Users/kevinleary/Sites/rapid-vvv/docs/rapidminer-web.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 756,
+						"buffer_size": 11045,
 						"regions":
 						{
 						},
@@ -1158,306 +1068,13 @@
 						[
 							[
 								0,
-								756
+								11045
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_includes/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 798,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								479,
-								479
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "quick-start/index.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 266,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								59,
-								59
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "quick-start/install.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 262,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								55,
-								55
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								347
-							]
-						],
-						"settings":
-						{
-							"auto_name": "1 Fundamental Terms",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 63,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								34
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "_plugins/markdown.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 650,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								650,
-								165
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_plugins/install.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 650,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 60,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								60,
-								60
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "_data/menu.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								415,
-								415
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "process-design/index.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 365,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								246,
-								246
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1467,124 +1084,61 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "process-design/creating-new-process.md",
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 280,
+						"buffer_size": 13086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								50
+								55,
+								761
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "# RapidMiner.com",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "_includes/navigation.html",
+					"buffer": 4,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1128,
+						"buffer_size": 4610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								241,
-								241
-							],
-							[
-								318,
-								318
+								0,
+								4610
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "# RapidMiner.com Development Workflow",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "assets/css/docs.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3983,
-								3983
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1653.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "_includes/intro.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 189,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1638,7 +1192,7 @@
 		[
 			[
 				"",
-				"assets/css/docs.css"
+				"Vagrant/www/rapid-staging/wp-content/plugins/rapid-custom-login-page/rapid-custom-login-page.php"
 			]
 		],
 		"width": 0.0
@@ -1667,7 +1221,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 248.0,
+	"side_bar_width": 221.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
