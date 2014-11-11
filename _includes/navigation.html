@@ -1,0 +1,29 @@
+{{ page.title }}
+
+<ul id="menu" class="nav nav-list" data-spy="affix">
+	{% for nav_link in site.data.menu %}
+		{% if nav_link.child_links %}
+			{% if nav_link.name == page.title %}
+				<li data-section="{{ nav_link.href }}" class="nav-header">
+			{% else %}
+				<li data-section="{{ nav_link.href }}" class="nav-header">
+			{% endif %}
+			<a href="{{ nav_link.href }}">{{ nav_link.name }}</a>
+			<ul class="nav nav-list">
+				{% for child_link in nav_link.child_links %}
+					{% if child_link.divider %}
+						<li><a href="{{ nav_link.href }}{{ child_link.subhref }}">{{ child_link.name }}</a></li>
+						<li class="divider"></li>
+					{% else %}
+						<li><a href="{{ nav_link.href }}{{ child_link.subhref }}">{{ child_link.name }}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</li>
+		{% elsif nav_link.name == page.title %}
+			<li data-section="{{ nav_link.href }}" class="active nav-header"><a href="{{ nav_link.href }}">{{ nav_link.name }}</a></li>
+		{% else %}
+			<li data-section="{{ nav_link.href }}" class="nav-header"><a href="{{ nav_link.href }}">{{ nav_link.name }}</a></li>
+		{% endif %}
+	{% endfor %}
+</ul>

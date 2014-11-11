@@ -1,0 +1,1675 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"get_user",
+				"get_user_meta"
+			],
+			[
+				"Rapidminer",
+				"Rapidminer_Core"
+			],
+			[
+				"rapid_is_",
+				"rapid_is_local"
+			],
+			[
+				"wp_pa",
+				"wp_parse_args"
+			],
+			[
+				"class_",
+				"class_exists"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"deferr",
+				"Deferreds"
+			],
+			[
+				"success",
+				"successMsg"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"delete_user",
+				"delete_user_meta"
+			],
+			[
+				"wp_send_json_",
+				"wp_send_json_error"
+			],
+			[
+				"Rapidminer_",
+				"Rapidminer_Profile"
+			],
+			[
+				"wp_json",
+				"wp_send_json"
+			],
+			[
+				"wp_remote_re",
+				"wp_remote_retrieve_body"
+			],
+			[
+				"wp_j",
+				"wp_send_json"
+			],
+			[
+				"wp_send",
+				"wp_send_json_success"
+			],
+			[
+				"cancel",
+				"cancelModal"
+			],
+			[
+				"account",
+				"accountData"
+			],
+			[
+				"wpjson",
+				"wp_send_json_error"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"wp_send_",
+				"wp_send_json_error"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"wp_jso",
+				"wp_send_json_error"
+			],
+			[
+				"wp_send_json",
+				"wp_send_json_error"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ob_get",
+				"ob_get_contents"
+			],
+			[
+				"get_the_",
+				"get_the_content"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"dash",
+				"dashboardNav"
+			],
+			[
+				"esc_attr",
+				"esc_attr_e"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"strip",
+				"stripslashes"
+			],
+			[
+				"u",
+				"upper-alpha"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"access",
+				"access_token"
+			],
+			[
+				"read",
+				"readonly	Attr"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"esc_att",
+				"esc_attr_e"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"wp_login",
+				"wp_login_url"
+			],
+			[
+				"get_the",
+				"get_the_title"
+			],
+			[
+				"is_sing",
+				"is_singular"
+			],
+			[
+				"plugin_path",
+				"plugin_dir_path"
+			],
+			[
+				"sanitizei",
+				"sanitize_email"
+			],
+			[
+				"get_templa",
+				"get_template_part"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"border-bott",
+				"border-bottom-color"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"is_page",
+				"is_page_template"
+			],
+			[
+				"wp_regi",
+				"wp_register_script"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"maybe",
+				"maybe_unserialize"
+			],
+			[
+				"is_user",
+				"is_user_logged_in"
+			],
+			[
+				"get_curr",
+				"wp_get_current_user"
+			],
+			[
+				"santize",
+				"sanitize_email"
+			],
+			[
+				"get_post",
+				"get_post_custom"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"overfl",
+				"overflow-x"
+			],
+			[
+				"light",
+				"lighten(color, 10%)"
+			],
+			[
+				"su",
+				"super"
+			],
+			[
+				"padi",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"enqueue",
+				"wp_enqueue_scripts"
+			],
+			[
+				"get_style",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ob_end",
+				"ob_end_flush"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"plugin_d",
+				"plugin_dir_path"
+			],
+			[
+				"impl",
+				"implode"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"request",
+				"request_url"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"http_bu",
+				"http_build_query"
+			],
+			[
+				"class",
+				"class_exists"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 900,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 798,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "quick-start/index.md",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "quick-start/install.md",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "1 Fundamental Terms\n1.1 Coincidence or not?\n1.2 Fundamental Terms\n2 Quick Start\n    - name: \"Installation & First Repository\"\n      url: \"/quick-start/install\"\n2.2 Perspectives and Views\n    - name: \"Installation & First Repository\"\n      url: \"/quick-start/install\"\n2.3 Design Perspective\n3 Design of Analysis Processes\n3.1 Creating a New Process",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Unix",
+				"name": "1 Fundamental Terms"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_plugins/markdown.rb",
+			"settings":
+			{
+				"buffer_size": 650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_plugins/install.rb",
+			"settings":
+			{
+				"buffer_size": 650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 60,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_data/menu.yml",
+			"settings":
+			{
+				"buffer_size": 415,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "process-design/index.md",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "process-design/creating-new-process.md",
+			"settings":
+			{
+				"buffer_size": 280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/navigation.html",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/docs.css",
+			"settings":
+			{
+				"buffer_size": 4451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/intro.md",
+			"settings":
+			{
+				"buffer_size": 189,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"hint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"mark",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"php",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"handlebars",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"preview",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"github",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"snippet",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"edit",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kevinleary/Sites/rapidminer-docs/_includes",
+		"/Users/kevinleary/Sites/rapidminer-docs/assets/css"
+	],
+	"file_history":
+	[
+		"/Users/kevinleary/Sites/rapidminer-docs/_site/CNAME",
+		"/Users/kevinleary/Sites/rapidminer-docs/CNAME",
+		"/Users/kevinleary/Sites/rapidminer-docs/_includes/navigation.html",
+		"/Users/kevinleary/Sites/rapidminer-docs/section-name/components.html",
+		"/Users/kevinleary/Sites/rapidminer-docs/introduction/page-name.html",
+		"/Users/kevinleary/Sites/rapidminer-docs/introduction/.DS_Store",
+		"/Users/kevinleary/Sites/rapidminer-docs/_sass/_base.scss",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/footer.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/theme.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_cloud-activate.twig",
+		"/Users/kevinleary/Sites/rapidminer-docs/_config.yml",
+		"/Users/kevinleary/Sites/rapidminer-docs/_includes/head.html",
+		"/Users/kevinleary/Sites/rapidminer-docs/_includes/header.html",
+		"/Users/kevinleary/Sites/rapidminer-docs/css/main.less",
+		"/Users/kevinleary/Sites/rapidminer-docs/gruntfile.js",
+		"/Users/kevinleary/Sites/rapidminer-docs/package.json",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/account.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/cloud.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/cloud.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/activate.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/account.php",
+		"/Users/kevinleary/Sites/rapidminer-docs/rapidminer-docs.sublime-project",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/js/lib/pdfjs/web/locale/es-ES/viewer.properties",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins-dormant/polylang/admin/table-string.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins-dormant/polylang/admin/table-languages.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-design/less/mixins/table-row.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-design/less/tables.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-design/js/tab.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/template-app-news.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-admin/themes.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/cloud-beta.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/email.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/download.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/header.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/framework/actions/slideshow.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/lib/jupiter-pluggable.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/debug.log",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/stylesheet/less/header-toolbar.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/amazon-ses-and-dkim-mailer/configure-smtp.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/profile.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/general-email.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/amazon-ses-and-dkim-mailer/php-mailer/class.phpmailer.php",
+		"/Users/kevinleary/Desktop/email.html",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/template-dashboard.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/licensing.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-auth0/WP_Auth0.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/licenses.handlebars",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/licenses.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/lib/handlebars.jquery.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/mu-plugins/fpdf.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/gravityformsuserregistration/userregistration.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/gravityformsuserregistration/includes/signups.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/rapid-functionality.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-auth0/templates/login-form.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-login.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/activate.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/gravityformsuserregistration/includes/activate.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/dist/css/activate.min.css",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/Gruntfile.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/templating.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/mu-plugins/developers-plugin.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/wpmandrill/lib/mandrill.class.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/wpmandrill/wpmandrill.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/profile.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/login.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/tracking.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/.git/config",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/readme.html",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/utils.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/screens.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/landing.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/enqueue.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/utilities.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/framework/functions/enqueue-front-scripts.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/profile.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/templates/activate-error.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/tests/user-tasks.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/tests/demo.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/settings.json",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/.gitignore",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/nightwatch.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/tests/settings.json",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/package.json",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/assets/less/news-feed.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/Gruntfile.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/ajax-proxy.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/licenses.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_modal-license-confirm.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_license-order.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_modal-credits-confirm.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/charge.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/performance.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer/functions.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/settings.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/settings/settings-controls.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/less/admin.less",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/admin-settings.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/wp-settings-framework.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_modal-activate-confirm.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/settings.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_hello-bar.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/admin-controls.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/settings/controls.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_modal-agreement.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/downloads.handlebars",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_order.handlebars",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/lib/hello-bar.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/licensing.php",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_header.handlebars",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_cloud-manager.twig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/.gitignore",
+		"/Users/kevinleary/.bash_aliases",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/_footer.handlebars",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/lib/jquery.crs.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/inc/licensing.php.orig",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account/cloud.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates/cloud-beta.php",
+		"/Users/kevinleary/Desktop/tos.html",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/dist/js/account.source.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/lib/jQuery.ajaxQueue.min.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter/js/jquerytransit.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/test.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/forgot-password.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/downloads.js",
+		"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/nightwatch/tests/registration.js",
+		"/Users/kevinleary/Desktop/cleanup.sql",
+		"/Users/kevinleary/Sites/rapid-vvv/config/nginx-config/sites/rapidminer.staging.conf"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.twig",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/rapidminer,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/amazon-ses-and-dkim-mailer",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/gravityformsuserregistration,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/wpmandrill,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/wpmandrill",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/mu-plugins/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"<open files>",
+			"",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionaliy",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-auth0",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/templates",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js/account",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/assets/js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/repid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/LayerSlider",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/themes/jupiter",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-auth0,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.twig",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.less",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.pjp",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-auth0/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/plugins/rapid-functionality/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-auth0,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.handlebars",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.js",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-auth0",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-auth0,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/rapid-functionality,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/",
+			"/Users/kevinleary/Sites/rapid-vvv/www/rapid-staging/wp-content/,*.php"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"dropdown",
+			"nav-header",
+			"caret",
+			"      subhref: \"/",
+			"data-toggle=\"dropdown\"",
+			".href",
+			"href",
+			".url",
+			"url",
+			"/quick-start/",
+			"navbar_link",
+			"navbar_links",
+			". . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+			". . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+			". . . . . . . . . . . . . . . . . . . . . . . . . . ",
+			"   * ",
+			"pull-right",
+			"nav > li > a",
+			"#ccc",
+			".orange",
+			".orange-button",
+			".navbar .nav.pull-right a.orange-button",
+			".orange-button",
+			"Jetstrap",
+			"orange-button",
+			".nav",
+			".navbar .nav > li > a.nav",
+			".brand",
+			"none !important",
+			".navbar-inner",
+			".css",
+			"JETSTRAP",
+			"jetstrap",
+			"JETSTRAP",
+			"jetstrap.com",
+			"dist/",
+			"config",
+			"activate",
+			"lead_in",
+			"{{ lead_in",
+			"Run your RapidMiner Studio processes ",
+			"You’re just a few clicks away from getting started with RapidMiner Cloud!",
+			"Run your RapidMiner Studio processes ",
+			".rapid-pricing",
+			"rapid-pricing",
+			"table-pricing",
+			".btn",
+			"rapid-pricing",
+			"region-primary",
+			"region-aside",
+			"cloud-graphic",
+			"region-primary",
+			"green",
+			"region-inner",
+			"cloud-overview",
+			"social",
+			"mk-footer",
+			"#menu-footer-navigation",
+			"mk-footer-logo",
+			"theme_slideshow",
+			"mk-header-toolbar",
+			".header-toolbar-item",
+			"login-link",
+			"login",
+			".mk-header-toolbar",
+			".mk-login-link",
+			".header-toolbar-item",
+			"mk-header-login",
+			"mk-login-link",
+			"login-link",
+			"mk-login-link",
+			".mk-header-login",
+			"mail",
+			"subscribe",
+			"tb-contact ",
+			"header-toolbar-item",
+			"support",
+			"login",
+			"contact",
+			"mk-header-subscribe-button",
+			"template_redirect",
+			"wp_redirect",
+			"anatta_swap_php_mailer",
+			"wp_mail",
+			"presend_email",
+			"decode",
+			") ",
+			"Rapidminer_Templating::render_twig",
+			"Rapidminer_Templating",
+			"Notification",
+			"build_template",
+			"mandrill",
+			"anatta_swap_php_mailer",
+			"CreateBody",
+			"MIMEBody",
+			"AmazonSESSend",
+			"AWS",
+			"phpmailer",
+			"anatta_swap_php_mailer",
+			"wp_mail",
+			"pagenow",
+			"cache",
+			"resolveTemplatePath",
+			",",
+			"',",
+			"','",
+			"resolveTemplatePath",
+			"renderTo",
+			"renderAfter",
+			"console.log",
+			"url",
+			"%s",
+			"\"",
+			"Click the following link to activate ",
+			"?page=gf_activation",
+			"https://rapidminer.staging/?page=gf_activation",
+			"render_form",
+			"compile_template",
+			"templates",
+			"activation",
+			"data",
+			"renderAfter",
+			"create:",
+			"self.prices",
+			"toggler",
+			"closed",
+			"license-order",
+			"toggler"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"::$path_",
+			"::$path_inc",
+			"::$path_lib",
+			"Rapidminer_",
+			"account.php"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 15,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								740,
+								740
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								756
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "quick-start/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "quick-start/install.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								347
+							]
+						],
+						"settings":
+						{
+							"auto_name": "1 Fundamental Terms",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_plugins/markdown.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								165
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_plugins/install.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_data/menu.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "process-design/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "process-design/creating-new-process.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								50
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "_includes/navigation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							],
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "assets/css/docs.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3983,
+								3983
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1653.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "_includes/intro.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 419.0
+	},
+	"project": "rapidminer-docs.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"assets/css/docs.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

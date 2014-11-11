@@ -1,0 +1,19 @@
+- name: "Welcome"
+  url: "/"
+
+- name: "Quick Start"
+  href: "/quick-start"
+  child_links:
+    - name: "Installation & First Repository"
+      subhref: "/install"
+
+- name: "Process Design"
+  href: "/process-design"
+  child_links:
+    - name: "Creating a New Process"
+      subhref: "/creating-new-process"
+
+- name: "Support"
+  child_links:
+    - name: "Contact Support"
+      subhref: "mailto:support@rapidminer.com"
