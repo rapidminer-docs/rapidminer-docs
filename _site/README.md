@@ -18,13 +18,19 @@ Jekyll is a command line Ruby tool, so you'll need to have Ruby on Rails configu
 
 That's it! Your site is now available locally on your machine at [http://0.0.0.0:4000/](http://0.0.0.0:4000/)
 
+*Note*
+
+Regardless of whether you use GitHub to host the Jekyll site, they provide a great tutorial on setting up Jekyll: https://help.github.com/articles/using-jekyll-with-pages/
+
 ## Publish *(proposed)*
 
 Jekyll can be deployed to GitHub and served using GitHub pages for free. Here's how to do it:
 
 1. Add a remote for GitHub: `git add remote github git@github.com:rapidminer-docs/rapidminer-docs.git`
 1. Push your changes to the new remote: `git push github master`
-1. 
+1. View the site: `http://rapidminer-docs.github.io/rapidminer-docs`
+
+You can map docs.rapidminer.com to Github is you like.
 
 ## Directory Structure
 
